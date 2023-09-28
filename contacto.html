@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang= "es">
+<head>
+  <title>Hotel San Remo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href=" img/logo_fav.png">
+	<link href="style.css" rel= "stylesheet" type= "text/css">
+ </head>
+ <body>
+
+ <div class="contenedor">
+	<header>
+		<div class="logo">
+			<a href="index.html" title="inicio">
+				<img src="img/logo.png" alt="logo">
+			</a>	
+		</div>
+			<nav>
+		
+
+    
+
+			<a href="habitaciones.html" title="HABITACIONES">HABITACIONES</a>
+			<a href="#" title="SERVICIOS">SERVICIOS</a>
+			<a href="galeria.html" title="galeria.html">GALERÍA</a>
+			<a href="contacto.html" title="CONTACTO">CONTACTO</a>
+			<a href="#" title="RESERVAS">RESERVAS</a>
+			
+
+		</nav>
+	
+	</header>
+	<main class="mmain">
+	<div class="asistente2">
+		<div class="asistente">
+			<img src="img/asistente2.png" alt="imagen asistente" height="300px" width="300px">
+		</div>
+	</div>
+
+		
+	<div class="contact_form">
+
+		<div class="formulario">			
+      <h1>Formulario de contacto</h1>
+				<h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+					<form action="submeter-formulario.php" method="post">				
+
+						
+								<p class="p">
+									<label for="nombre" class="colocar_nombre"><strong>Nombre</strong>
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required placeholder="Escribe tu nombre">
+								</p>
+							
+								<p class="p">
+									<label for="email" class="colocar_email"><strong>Email</strong>
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required placeholder="Escribe tu Email">
+								</p>
+						
+								<p class="p">
+									<label for="telefone" class="colocar_telefono"><strong>Teléfono</strong>
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+							
+								<p class="p">
+									<label for="website" class="colocar_website"><strong>Sitio web</strong>
+									</label>
+										<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+								</p>		
+							
+								<p class="p">
+									<label for="asunto" class="colocar_asunto"><strong>Asunto</strong>
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_asunto" id="assunto" required placeholder="Escribe un asunto">
+								</p>		
+							
+								<p class="p">
+									<label for="mensaje" class="colocar_mensaje"><strong>Mensaje</strong>
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+		
+				
+			
+	</main>
+	<footer>
+	<div class="logof">
+	<img src="img/logo_footer.png" alt="logo">
+	</div>
+	<div class="info">
+		<p>
+			<strong>Av. de los Constituyentes 3421 - Mar del Plata - Argentina</strong>
+		</p>
+		<p>
+			<strong>Tel. +54 9 233 128-5677</strong>
+		</p>
+	<div class="iconos">
+			<a href="facebook.com" title="logo facebook">
+			<img src="img/iconos/facebook.png" alt="img facebook">
+		</a>
+		<a  class="ig" href="instagram.com" title="logo instagram">
+			<img src="img/iconos/instagram.png" alt="img instagram">
+		</a>
+	</div>
+	</div>
+	
+	<div class="logosf">
+		<img class="imgg" src="img/iconos/cardio.png" alt="img cardio">
+		<img class="img2" src="img/iconos/eco.png" alt="img eco">
+		<img class="img3" src="img/iconos/libre.png" alt="img libre">
+	</div>
+
+
+
+	</footer>
+</div>
+</body>
+</html>
